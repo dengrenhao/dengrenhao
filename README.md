@@ -2,7 +2,7 @@
 
 # Ren-Hao Deng
 
-**M.S. in Computer Science @ National Taiwan University** · B.S. in CS @ NYCU (GPA 4.18/4.3)
+**M.S. in Computer Science @ National Taiwan University** · B.S. in CS @ NYCU
 
 Systems software · LLM serving & inference systems · Backend infrastructure
 
