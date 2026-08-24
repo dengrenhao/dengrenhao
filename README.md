@@ -6,7 +6,7 @@
 
 Systems software · LLM serving & inference systems · Backend infrastructure
 
-[Email](mailto:ddeng691@gmail.com)
+[Email](mailto:ddeng691@gmail.com) · [LinkedIn](https://www.linkedin.com/in/dengrenhao)
 
 </div>
 
