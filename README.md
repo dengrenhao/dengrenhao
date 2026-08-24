@@ -15,16 +15,18 @@ Systems software · LLM serving & inference systems · Backend infrastructure
 ## About
 
 - Industry experience at the **Institute for Information Industry (III)** and **Academia Sinica**: LLM training pipelines on DGX clusters (DeepSpeed/LoRA), multi-agent LLM systems, and edge AI deployment in C++.
-- Comfortable across the stack — from **CUDA kernels, MPI/AVX-512 optimization, and SSD firmware simulation** to **concurrent network servers and containerized Linux infrastructure**.
+- Comfortable across the stack, from **CUDA kernels, MPI/AVX-512 optimization, and SSD firmware simulation** to **concurrent network servers and containerized Linux infrastructure**.
 
 > Most of my recent work (internships, thesis research) lives in private repositories; the projects below are a curated public subset.
 
 ## Research & Publications
 
 - **EvolVE: Evolutionary Search for LLM-based Verilog Generation and Optimization**
-  Hsin, W.\*, **Deng, R.**\*, Hsieh, Y.\*, Huang, E. & Hung, S. — *arXiv:2601.18067*, 2026. (\*equal contribution) [[paper]](https://arxiv.org/abs/2601.18067)
+  Hsin, W.\*, **Deng, R.**\*, Hsieh, Y.\*, Huang, E. & Hung, S. · *arXiv:2601.18067*, 2026. (\*equal contribution) [[paper]](https://arxiv.org/abs/2601.18067)
+- **Structured Testbench Generation for LLM-Driven HDL Design and Verification-Oriented Data Curation**
+  Huang, E., Kao, Y., **Deng, R.**, et al. · *arXiv:2606.12983*, 2026. [[paper]](https://arxiv.org/abs/2606.12983)
 - **Exploring relationships among soundscape perception, spatiotemporal sound characteristics, and personal traits through social media**
-  Chan, T., Wu, B., Lee, Y., Lee, P. & **Deng, R.** — *Noise Mapping*, 10(1), 2023. [[paper]](https://doi.org/10.1515/noise-2022-0174)
+  Chan, T., Wu, B., Lee, Y., Lee, P. & **Deng, R.** · *Noise Mapping*, 10(1), 2023. [[paper]](https://doi.org/10.1515/noise-2022-0174)
 
 ## Selected Projects
 
@@ -32,7 +34,7 @@ Systems software · LLM serving & inference systems · Backend infrastructure
 
 | Project | Description | Tech |
 |---|---|---|
-| [hpc-kernel-optimization](https://github.com/dengrenhao/hpc-kernel-optimization) | Step-by-step kernel optimization — attention kernel from 241s to 3.2s (75.6×) on a 4-node cluster | C, CUDA, OpenMP, MPI, AVX-512 |
+| [hpc-kernel-optimization](https://github.com/dengrenhao/hpc-kernel-optimization) | Step-by-step kernel optimization: attention kernel from 241s to 3.2s (75.6×) on a 4-node cluster | C, CUDA, OpenMP, MPI, AVX-512 |
 | [p-language-compiler](https://github.com/dengrenhao/p-language-compiler) | Full compiler for the P language: scanner → parser → AST → semantic analysis → RISC-V codegen | C/C++, flex, bison, RISC-V |
 | [ssd-ftl-labs](https://github.com/dengrenhao/ssd-ftl-labs) | Instrumenting SSD internals in the MQSim simulator: FTL mapping-table hit rate, GC, and wear leveling (incl. an upstream bug fix) | C++, Python |
 | [unix-systems-programming](https://github.com/dengrenhao/unix-systems-programming) | A ptrace + Capstone instruction-level debugger, and an LD_PRELOAD syscall-interception sandbox | C/C++, ptrace |
@@ -53,7 +55,7 @@ Systems software · LLM serving & inference systems · Backend infrastructure
 
 | Project | Description | Tech |
 |---|---|---|
-| [multimodal-lora-gapro](https://github.com/dengrenhao/multimodal-lora-gapro) | Combining LoRA-GA initialization with LoRA-Pro gradient correction on multimodal LLMs (LLaVA, Qwen-VL) — unified training/eval framework with DeepSpeed | Python, PyTorch, DeepSpeed |
+| [multimodal-lora-gapro](https://github.com/dengrenhao/multimodal-lora-gapro) | Combining LoRA-GA initialization with LoRA-Pro gradient correction on multimodal LLMs (LLaVA, Qwen-VL); unified training/eval framework with DeepSpeed | Python, PyTorch, DeepSpeed |
 | [ai-capstone](https://github.com/dengrenhao/ai-capstone) | Search, inference & ML agents: hand-written MCTS and a CNF-resolution Minesweeper solver | Python |
 | [decision-tree-implementation](https://github.com/dengrenhao/decision-tree-implementation) | CART classification tree from scratch with linear-time incremental Gini split search | Python, NumPy |
 | [Suika-Game-DRL-Final](https://github.com/dengrenhao/Suika-Game-DRL-Final) | Deep RL agents for the Suika game across four observation/action difficulty levels | Python, PyTorch |
@@ -61,9 +63,9 @@ Systems software · LLM serving & inference systems · Backend infrastructure
 
 ### Research & Team Collaborations
 
-- [EvolVE](https://github.com/evolution-lab-group/EvolVE) — evolutionary search for LLM-based Verilog generation ([arXiv:2601.18067](https://arxiv.org/abs/2601.18067)); co-first author.
-- [AnimeFrameBot](https://github.com/XYFC128/AnimeFrameBot) — Go API server with fuzz/mutation testing; contributed the `/frame` and `/upload` API endpoints, fuzz tests and coverage, and the Telegram bot functions.
-- [ICRTL-Benchmark](https://github.com/weiber2002/ICRTL-Benchmark) — industrial-level RTL design challenges for evaluating LLM-based RTL generation; research collaboration (follow-up to EvolVE).
+- [EvolVE](https://github.com/evolution-lab-group/EvolVE): evolutionary search for LLM-based Verilog generation ([arXiv:2601.18067](https://arxiv.org/abs/2601.18067)); co-first author.
+- [AnimeFrameBot](https://github.com/XYFC128/AnimeFrameBot): Go API server with fuzz/mutation testing; contributed the `/frame` and `/upload` API endpoints, fuzz tests and coverage, and the Telegram bot functions.
+- [ICRTL-Benchmark](https://github.com/weiber2002/ICRTL-Benchmark): industrial-level RTL design challenges for evaluating LLM-based RTL generation; research collaboration (follow-up to EvolVE).
 
 
 
@@ -71,8 +73,8 @@ Systems software · LLM serving & inference systems · Backend infrastructure
 
 | Award | Detail |
 |---|---|
-| **Global Winner**, NASA International Space Apps Challenge (2022) | Global Connection Award, Top 10 of 5,327 teams — [3D_ISS_Tracker](https://github.com/dengrenhao/3D_ISS_Tracker) |
-| **Team of Excellence (Top 5)**, Taiwan Presidential Hackathon (2024) | "Quiet Tracker" — edge-AI urban noise governance |
+| **Global Winner**, NASA International Space Apps Challenge (2022) | Global Connection Award, Top 10 of 5,327 teams · [3D_ISS_Tracker](https://github.com/dengrenhao/3D_ISS_Tracker) |
+| **Team of Excellence (Top 5)**, Taiwan Presidential Hackathon (2024) | "Quiet Tracker", edge-AI urban noise governance |
 | **1st Place**, Data De-identification and Re-identification Competition, Academia Sinica (2023) | |
 | **3rd Place**, Meichu Hackathon, NXP Enterprise Award (2023) | |
 | **1st Place**, Meichu Hackathon, STMicroelectronics Enterprise Award (2022) | |
