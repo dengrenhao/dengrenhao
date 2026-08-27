@@ -14,7 +14,7 @@ Systems software · LLM serving & inference systems · Backend infrastructure
 
 ## About
 
-- Industry experience at the **Institute for Information Industry (III)** and **Academia Sinica**: LLM training pipelines on DGX clusters (DeepSpeed/LoRA), multi-agent LLM systems, and edge AI deployment in C++.
+- Industry experience at **Trend Micro**, the **Institute for Information Industry (III)**, and **Academia Sinica**: evaluation frameworks for LLM-agent tool interfaces, LLM training pipelines on DGX clusters (DeepSpeed/LoRA), multi-agent LLM systems, and edge AI deployment in C++.
 - Comfortable across the stack, from **CUDA kernels, MPI/AVX-512 optimization, and SSD firmware simulation** to **concurrent network servers and containerized Linux infrastructure**.
 
 > Most of my recent work (internships, thesis research) lives in private repositories; the projects below are a curated public subset.
