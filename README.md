@@ -84,6 +84,6 @@ Systems software · LLM serving & inference systems · Backend infrastructure
 | Category | Technologies |
 |---|---|
 | Languages | C/C++, Python |
-| Systems & Infrastructure | Linux (Arch/Ubuntu), Docker, Ansible, PostgreSQL, Git/GitLab |
+| Systems & Infrastructure | Linux (Arch/Ubuntu), Docker, Kubernetes, Ansible, PostgreSQL, Git/GitLab, GitHub Actions |
 | Parallel & GPU Computing | CUDA, OpenMP, MPI, SIMD (AVX-512) |
-| AI & GenAI | PyTorch, vLLM, DeepSpeed, LangGraph, LLM fine-tuning (LoRA), RAG, multi-agent systems |
+| AI & GenAI | PyTorch, vLLM, SGLang, DeepSpeed, LangGraph, LLM fine-tuning (LoRA), RAG, multi-agent systems, MCP tools, LLM evaluation (LLM-as-judge) |
