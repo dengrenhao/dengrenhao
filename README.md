@@ -4,7 +4,7 @@
 
 **M.S. in Computer Science @ National Taiwan University** · B.S. in CS @ NYCU
 
-Systems software · LLM serving & inference systems · Backend infrastructure
+Systems software · LLM serving & inference systems · Computer vision · Backend infrastructure
 
 [Email](mailto:ddeng691@gmail.com) · [LinkedIn](https://www.linkedin.com/in/dengrenhao)
 
@@ -15,6 +15,7 @@ Systems software · LLM serving & inference systems · Backend infrastructure
 ## About
 
 - Industry experience at **Trend Micro**, the **Institute for Information Industry (III)**, and **Academia Sinica**: evaluation frameworks for LLM-agent tool interfaces, LLM training pipelines on DGX clusters (DeepSpeed/LoRA), multi-agent LLM systems, and edge AI deployment in C++.
+- **Computer vision** from classical operators to deployed systems: object detection and multi-object tracking, domain adaptation for cross-domain species classification, and a real-time tracking pipeline served as low-latency HLS.
 - Comfortable across the stack, from **CUDA kernels, MPI/AVX-512 optimization, and SSD firmware simulation** to **concurrent network servers and containerized Linux infrastructure**.
 
 > Most of my recent work (internships, thesis research) lives in private repositories; the projects below are a curated public subset.
@@ -51,11 +52,20 @@ Systems software · LLM serving & inference systems · Backend infrastructure
 | [freebsd-sysadmin-toolkit](https://github.com/dengrenhao/freebsd-sysadmin-toolkit) | FreeBSD sysadmin tools: a ZFS snapshot-backup CLI, an rc.d FTP upload-policy monitor, and a JSON container decoder | Shell, FreeBSD |
 | [smart-fridge](https://github.com/dengrenhao/smart-fridge) | Multi-user smart fridge on Raspberry Pi: face recognition, Gemini-based item detection, per-user inventory via Telegram bot | Python, Raspberry Pi |
 
+### Computer Vision
+
+| Project | Description | Tech |
+|---|---|---|
+| [video-tracking-and-streaming](https://github.com/dengrenhao/video-tracking-and-streaming) | Classification → YOLOX detection with an SE-attention neck → ByteTrack MOT → a real-time tracker served to the browser as low-latency HLS at 30 FPS | PyTorch, OpenCV, ffmpeg, Flask |
+| [uav-autopilot-vision](https://github.com/dengrenhao/uav-autopilot-vision) | Autonomous Tello flight from vision alone: camera calibration, ArUco pose + PID visual servoing, a fine-tuned YOLOv7-tiny detector, and grid-based line following | Python, OpenCV, PyTorch |
+| [image-processing-and-colorization](https://github.com/dengrenhao/image-processing-and-colorization) | Histogram equalization/specification, Gaussian convolution, bicubic interpolation and Butterworth notch filtering implemented from the arithmetic up, applied to archival photo restoration | NumPy, OpenCV |
+
 ### Applied AI / ML
 
 | Project | Description | Tech |
 |---|---|---|
 | [multimodal-lora-gapro](https://github.com/dengrenhao/multimodal-lora-gapro) | Combining LoRA-GA initialization with LoRA-Pro gradient correction on multimodal LLMs (LLaVA, Qwen-VL); unified training/eval framework with DeepSpeed | Python, PyTorch, DeepSpeed |
+| [nlp-and-llm-finetuning](https://github.com/dengrenhao/nlp-and-llm-finetuning) | Four NLP tasks from BiLSTM-attention to LoRA fine-tuning of Vicuna-7B; using one LLM to filter another's context lifts accuracy 0.714 → 0.802 | Python, PyTorch, FastChat, LoRA |
 | [ai-capstone](https://github.com/dengrenhao/ai-capstone) | Search, inference & ML agents: hand-written MCTS and a CNF-resolution Minesweeper solver | Python |
 | [decision-tree-implementation](https://github.com/dengrenhao/decision-tree-implementation) | CART classification tree from scratch with linear-time incremental Gini split search | Python, NumPy |
 | [Suika-Game-DRL-Final](https://github.com/dengrenhao/Suika-Game-DRL-Final) | Deep RL agents for the Suika game across four observation/action difficulty levels | Python, PyTorch |
@@ -87,3 +97,4 @@ Systems software · LLM serving & inference systems · Backend infrastructure
 | Systems & Infrastructure | Linux (Arch/Ubuntu), Docker, Kubernetes, Ansible, PostgreSQL, Git/GitLab, GitHub Actions |
 | Parallel & GPU Computing | CUDA, OpenMP, MPI, SIMD (AVX-512) |
 | AI & GenAI | PyTorch, vLLM, SGLang, DeepSpeed, LangGraph, LLM fine-tuning (LoRA), RAG, multi-agent systems, MCP tools, LLM evaluation (LLM-as-judge) |
+
